@@ -9,15 +9,17 @@ It also generates a human-friendly alert log so managers can quickly see where t
 The goal: spot patterns → fix root causes → escalate fast.
 ---
 
-Pipeline
-flowchart LR
-    A[Raw CSVs\n(data/)] -->|orders.csv\nroutes.csv\ngps_logs.csv\ndefects.csv| B[Python ETL\netl/compute_lastmile_kpis.py]
-    B --> C1[daily_kpis.csv]
-    B --> C2[alerts_friendly.csv]
-    C1 --> D[GitHub repo (public)]
-    C2 --> D
-    D -->|IMPORTDATA| E[Google Sheets]
-    E --> F[Charts / Dashboard]
+## Pipeline (Simple View)
+
+```mermaid
+flowchart TD
+    A[Delivery Data Files\norders.csv, routes.csv, gps.csv, defects.csv] --> B[Python Script\ncompute KPIs + check problems]
+    B --> C[Daily Scoreboard\ndaily_kpis.csv]
+    B --> D[Alerts Report\nalerts_friendly.csv]
+    C --> E[GitHub\n(public links)]
+    D --> E
+    E --> F[Google Sheets\nimports the files]
+    F --> G[Charts & Dashboards\n(see trends + alerts)]
 
 ---
 ## Data Sources
