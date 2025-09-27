@@ -1,0 +1,248 @@
+Date,Station,Route,KPI Alert,Details,Severity
+2023-05-01,BOS-3,R-2023-05-01-04,On-Time Delivery below target,OTD was 83.3% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-04,Defect Rate too high,Defect Rate was 33.3% vs target 2.0%,CRITICAL
+2023-05-01,BOS-3,R-2023-05-01-04,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-04,Distance over plan,Actual distance was 86.5 km over plan (threshold 10.0 km),INFO
+2023-05-01,BOS-3,R-2023-05-01-00,On-Time Delivery below target,OTD was 61.5% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-00,Defect Rate too high,Defect Rate was 7.1% vs target 2.0%,CRITICAL
+2023-05-01,BOS-3,R-2023-05-01-00,Distance over plan,Actual distance was 33.7 km over plan (threshold 10.0 km),INFO
+2023-05-01,BOS-3,R-2023-05-01-05,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-05,Defect Rate too high,Defect Rate was 20.0% vs target 2.0%,CRITICAL
+2023-05-01,BOS-3,R-2023-05-01-05,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-05,Distance over plan,Actual distance was 54.1 km over plan (threshold 10.0 km),INFO
+2023-05-01,BOS-3,R-2023-05-01-08,On-Time Delivery below target,OTD was 70.0% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-08,Defect Rate too high,Defect Rate was 9.1% vs target 2.0%,CRITICAL
+2023-05-01,BOS-3,R-2023-05-01-08,First-Attempt Delivery below target,First attempt success was 80.0% vs target 95.0%,WARN
+2023-05-01,BOS-3,R-2023-05-01-08,Idle Time High,Idle time ratio was 27.3% vs target 25.0%,INFO
+2023-05-01,BOS-3,R-2023-05-01-08,Distance over plan,Actual distance was 47.5 km over plan (threshold 10.0 km),INFO
+2023-05-01,NYC-2,R-2023-05-01-01,On-Time Delivery below target,OTD was 40.0% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-01,Defect Rate too high,Defect Rate was 16.7% vs target 2.0%,CRITICAL
+2023-05-01,NYC-2,R-2023-05-01-01,First-Attempt Delivery below target,First attempt success was 80.0% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-01,Distance over plan,Actual distance was 17.8 km over plan (threshold 10.0 km),INFO
+2023-05-01,NYC-2,R-2023-05-01-07,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-07,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-07,Distance over plan,Actual distance was 94.3 km over plan (threshold 10.0 km),INFO
+2023-05-01,NYC-2,R-2023-05-01-02,On-Time Delivery below target,OTD was 72.7% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-02,Defect Rate too high,Defect Rate was 8.3% vs target 2.0%,CRITICAL
+2023-05-01,NYC-2,R-2023-05-01-02,First-Attempt Delivery below target,First attempt success was 90.9% vs target 95.0%,WARN
+2023-05-01,NYC-2,R-2023-05-01-02,Distance over plan,Actual distance was 23.8 km over plan (threshold 10.0 km),INFO
+2023-05-01,SEA-5,R-2023-05-01-06,On-Time Delivery below target,OTD was 60.0% vs target 95.0%,WARN
+2023-05-01,SEA-5,R-2023-05-01-06,Defect Rate too high,Defect Rate was 18.8% vs target 2.0%,CRITICAL
+2023-05-01,SEA-5,R-2023-05-01-06,First-Attempt Delivery below target,First attempt success was 93.3% vs target 95.0%,WARN
+2023-05-01,SEA-5,R-2023-05-01-06,Distance over plan,Actual distance was 68.5 km over plan (threshold 10.0 km),INFO
+2023-05-01,SEA-5,R-2023-05-01-03,On-Time Delivery below target,OTD was 85.7% vs target 95.0%,WARN
+2023-05-01,SEA-5,R-2023-05-01-03,Defect Rate too high,Defect Rate was 6.7% vs target 2.0%,CRITICAL
+2023-05-01,SEA-5,R-2023-05-01-03,Distance over plan,Actual distance was 136.9 km over plan (threshold 10.0 km),INFO
+2023-05-01,SEA-5,R-2023-05-01-09,On-Time Delivery below target,OTD was 87.5% vs target 95.0%,WARN
+2023-05-01,SEA-5,R-2023-05-01-09,Distance over plan,Actual distance was 100.4 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-08,On-Time Delivery below target,OTD was 70.6% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-08,Defect Rate too high,Defect Rate was 16.7% vs target 2.0%,CRITICAL
+2023-05-02,BOS-3,R-2023-05-02-08,First-Attempt Delivery below target,First attempt success was 94.1% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-08,Distance over plan,Actual distance was 28.7 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-09,On-Time Delivery below target,OTD was 83.3% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-09,Defect Rate too high,Defect Rate was 7.7% vs target 2.0%,CRITICAL
+2023-05-02,BOS-3,R-2023-05-02-09,Distance over plan,Actual distance was 79.7 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-00,On-Time Delivery below target,OTD was 63.6% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-00,Defect Rate too high,Defect Rate was 9.1% vs target 2.0%,CRITICAL
+2023-05-02,BOS-3,R-2023-05-02-00,Distance over plan,Actual distance was 112.5 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-13,On-Time Delivery below target,OTD was 70.0% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-13,Distance over plan,Actual distance was 38.4 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-02,On-Time Delivery below target,OTD was 33.3% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-02,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-02,Distance over plan,Actual distance was 120.9 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-05,On-Time Delivery below target,OTD was 80.0% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-05,Defect Rate too high,Defect Rate was 16.7% vs target 2.0%,CRITICAL
+2023-05-02,BOS-3,R-2023-05-02-05,Distance over plan,Actual distance was 125.5 km over plan (threshold 10.0 km),INFO
+2023-05-02,BOS-3,R-2023-05-02-10,On-Time Delivery below target,OTD was 62.5% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-10,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-02,BOS-3,R-2023-05-02-10,First-Attempt Delivery below target,First attempt success was 87.5% vs target 95.0%,WARN
+2023-05-02,BOS-3,R-2023-05-02-10,Distance over plan,Actual distance was 97.7 km over plan (threshold 10.0 km),INFO
+2023-05-02,NYC-2,R-2023-05-02-11,On-Time Delivery below target,OTD was 64.3% vs target 95.0%,WARN
+2023-05-02,NYC-2,R-2023-05-02-11,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-02,NYC-2,R-2023-05-02-11,First-Attempt Delivery below target,First attempt success was 78.6% vs target 95.0%,WARN
+2023-05-02,NYC-2,R-2023-05-02-11,Distance over plan,Actual distance was 107.5 km over plan (threshold 10.0 km),INFO
+2023-05-02,NYC-2,R-2023-05-02-12,On-Time Delivery below target,OTD was 57.1% vs target 95.0%,WARN
+2023-05-02,NYC-2,R-2023-05-02-12,Defect Rate too high,Defect Rate was 22.2% vs target 2.0%,CRITICAL
+2023-05-02,NYC-2,R-2023-05-02-12,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-02,NYC-2,R-2023-05-02-12,Distance over plan,Actual distance was 99.6 km over plan (threshold 10.0 km),INFO
+2023-05-02,NYC-2,R-2023-05-02-01,On-Time Delivery below target,OTD was 76.9% vs target 95.0%,WARN
+2023-05-02,NYC-2,R-2023-05-02-01,Defect Rate too high,Defect Rate was 7.1% vs target 2.0%,CRITICAL
+2023-05-02,NYC-2,R-2023-05-02-01,Distance over plan,Actual distance was 49.4 km over plan (threshold 10.0 km),INFO
+2023-05-02,SEA-5,R-2023-05-02-03,On-Time Delivery below target,OTD was 80.0% vs target 95.0%,WARN
+2023-05-02,SEA-5,R-2023-05-02-03,Defect Rate too high,Defect Rate was 9.1% vs target 2.0%,CRITICAL
+2023-05-02,SEA-5,R-2023-05-02-03,Distance over plan,Actual distance was 22.2 km over plan (threshold 10.0 km),INFO
+2023-05-02,SEA-5,R-2023-05-02-04,On-Time Delivery below target,OTD was 33.3% vs target 95.0%,WARN
+2023-05-02,SEA-5,R-2023-05-02-04,Defect Rate too high,Defect Rate was 7.7% vs target 2.0%,CRITICAL
+2023-05-02,SEA-5,R-2023-05-02-04,Distance over plan,Actual distance was 54.1 km over plan (threshold 10.0 km),INFO
+2023-05-02,SEA-5,R-2023-05-02-06,On-Time Delivery below target,OTD was 69.2% vs target 95.0%,WARN
+2023-05-02,SEA-5,R-2023-05-02-06,Defect Rate too high,Defect Rate was 15.4% vs target 2.0%,CRITICAL
+2023-05-02,SEA-5,R-2023-05-02-06,Idle Time High,Idle time ratio was 25.6% vs target 25.0%,INFO
+2023-05-02,SEA-5,R-2023-05-02-06,Distance over plan,Actual distance was 46.0 km over plan (threshold 10.0 km),INFO
+2023-05-02,SEA-5,R-2023-05-02-07,On-Time Delivery below target,OTD was 84.6% vs target 95.0%,WARN
+2023-05-02,SEA-5,R-2023-05-02-07,Distance over plan,Actual distance was 43.9 km over plan (threshold 10.0 km),INFO
+2023-05-03,BOS-3,R-2023-05-03-01,On-Time Delivery below target,OTD was 58.3% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-01,Defect Rate too high,Defect Rate was 31.2% vs target 2.0%,CRITICAL
+2023-05-03,BOS-3,R-2023-05-03-01,First-Attempt Delivery below target,First attempt success was 75.0% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-01,Distance over plan,Actual distance was 88.7 km over plan (threshold 10.0 km),INFO
+2023-05-03,BOS-3,R-2023-05-03-04,On-Time Delivery below target,OTD was 71.4% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-04,Distance over plan,Actual distance was 57.9 km over plan (threshold 10.0 km),INFO
+2023-05-03,BOS-3,R-2023-05-03-00,On-Time Delivery below target,OTD was 72.7% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-00,Defect Rate too high,Defect Rate was 27.3% vs target 2.0%,CRITICAL
+2023-05-03,BOS-3,R-2023-05-03-00,First-Attempt Delivery below target,First attempt success was 90.9% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-00,Distance over plan,Actual distance was 137.4 km over plan (threshold 10.0 km),INFO
+2023-05-03,BOS-3,R-2023-05-03-02,On-Time Delivery below target,OTD was 84.6% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-02,Defect Rate too high,Defect Rate was 14.3% vs target 2.0%,CRITICAL
+2023-05-03,BOS-3,R-2023-05-03-02,First-Attempt Delivery below target,First attempt success was 92.3% vs target 95.0%,WARN
+2023-05-03,BOS-3,R-2023-05-03-02,Distance over plan,Actual distance was 84.6 km over plan (threshold 10.0 km),INFO
+2023-05-03,NYC-2,R-2023-05-03-06,On-Time Delivery below target,OTD was 81.8% vs target 95.0%,WARN
+2023-05-03,NYC-2,R-2023-05-03-06,Defect Rate too high,Defect Rate was 16.7% vs target 2.0%,CRITICAL
+2023-05-03,NYC-2,R-2023-05-03-06,Distance over plan,Actual distance was 60.6 km over plan (threshold 10.0 km),INFO
+2023-05-03,NYC-2,R-2023-05-03-03,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-03,NYC-2,R-2023-05-03-03,Defect Rate too high,Defect Rate was 8.3% vs target 2.0%,CRITICAL
+2023-05-03,NYC-2,R-2023-05-03-03,First-Attempt Delivery below target,First attempt success was 91.7% vs target 95.0%,WARN
+2023-05-03,NYC-2,R-2023-05-03-03,Distance over plan,Actual distance was 15.8 km over plan (threshold 10.0 km),INFO
+2023-05-03,SEA-5,R-2023-05-03-05,On-Time Delivery below target,OTD was 50.0% vs target 95.0%,WARN
+2023-05-03,SEA-5,R-2023-05-03-05,Defect Rate too high,Defect Rate was 21.4% vs target 2.0%,CRITICAL
+2023-05-03,SEA-5,R-2023-05-03-05,First-Attempt Delivery below target,First attempt success was 91.7% vs target 95.0%,WARN
+2023-05-03,SEA-5,R-2023-05-03-05,Distance over plan,Actual distance was 57.4 km over plan (threshold 10.0 km),INFO
+2023-05-03,SEA-5,R-2023-05-03-07,On-Time Delivery below target,OTD was 53.8% vs target 95.0%,WARN
+2023-05-03,SEA-5,R-2023-05-03-07,Defect Rate too high,Defect Rate was 15.4% vs target 2.0%,CRITICAL
+2023-05-03,SEA-5,R-2023-05-03-07,First-Attempt Delivery below target,First attempt success was 92.3% vs target 95.0%,WARN
+2023-05-03,SEA-5,R-2023-05-03-07,Distance over plan,Actual distance was 40.9 km over plan (threshold 10.0 km),INFO
+2023-05-04,BOS-3,R-2023-05-04-06,On-Time Delivery below target,OTD was 58.3% vs target 95.0%,WARN
+2023-05-04,BOS-3,R-2023-05-04-06,Defect Rate too high,Defect Rate was 28.6% vs target 2.0%,CRITICAL
+2023-05-04,BOS-3,R-2023-05-04-06,First-Attempt Delivery below target,First attempt success was 91.7% vs target 95.0%,WARN
+2023-05-04,BOS-3,R-2023-05-04-06,Distance over plan,Actual distance was 46.8 km over plan (threshold 10.0 km),INFO
+2023-05-04,NYC-2,R-2023-05-04-04,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-04,Defect Rate too high,Defect Rate was 22.2% vs target 2.0%,CRITICAL
+2023-05-04,NYC-2,R-2023-05-04-04,First-Attempt Delivery below target,First attempt success was 88.9% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-04,Distance over plan,Actual distance was 62.5 km over plan (threshold 10.0 km),INFO
+2023-05-04,NYC-2,R-2023-05-04-07,On-Time Delivery below target,OTD was 60.0% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-07,Defect Rate too high,Defect Rate was 20.0% vs target 2.0%,CRITICAL
+2023-05-04,NYC-2,R-2023-05-04-07,First-Attempt Delivery below target,First attempt success was 90.0% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-07,Distance over plan,Actual distance was 87.4 km over plan (threshold 10.0 km),INFO
+2023-05-04,NYC-2,R-2023-05-04-00,On-Time Delivery below target,OTD was 28.6% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-00,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-04,NYC-2,R-2023-05-04-00,First-Attempt Delivery below target,First attempt success was 71.4% vs target 95.0%,WARN
+2023-05-04,NYC-2,R-2023-05-04-00,Distance over plan,Actual distance was 42.0 km over plan (threshold 10.0 km),INFO
+2023-05-04,SEA-5,R-2023-05-04-05,On-Time Delivery below target,OTD was 88.9% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-05,First-Attempt Delivery below target,First attempt success was 88.9% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-05,Distance over plan,Actual distance was 83.6 km over plan (threshold 10.0 km),INFO
+2023-05-04,SEA-5,R-2023-05-04-02,On-Time Delivery below target,OTD was 62.5% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-02,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-04,SEA-5,R-2023-05-04-02,First-Attempt Delivery below target,First attempt success was 87.5% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-02,Distance over plan,Actual distance was 127.5 km over plan (threshold 10.0 km),INFO
+2023-05-04,SEA-5,R-2023-05-04-03,On-Time Delivery below target,OTD was 28.6% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-03,First-Attempt Delivery below target,First attempt success was 71.4% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-03,Distance over plan,Actual distance was 86.8 km over plan (threshold 10.0 km),INFO
+2023-05-04,SEA-5,R-2023-05-04-01,On-Time Delivery below target,OTD was 58.8% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-01,Defect Rate too high,Defect Rate was 5.9% vs target 2.0%,CRITICAL
+2023-05-04,SEA-5,R-2023-05-04-01,First-Attempt Delivery below target,First attempt success was 88.2% vs target 95.0%,WARN
+2023-05-04,SEA-5,R-2023-05-04-01,Distance over plan,Actual distance was 37.0 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-00,On-Time Delivery below target,OTD was 55.6% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-00,Defect Rate too high,Defect Rate was 5.6% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-00,First-Attempt Delivery below target,First attempt success was 94.4% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-00,Idle Time High,Idle time ratio was 25.4% vs target 25.0%,INFO
+2023-05-05,BOS-3,R-2023-05-05-00,Distance over plan,Actual distance was 88.8 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-04,On-Time Delivery below target,OTD was 61.5% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-04,Defect Rate too high,Defect Rate was 29.4% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-04,Distance over plan,Actual distance was 96.6 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-06,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-06,Defect Rate too high,Defect Rate was 14.3% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-06,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-06,Distance over plan,Actual distance was 114.8 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-07,On-Time Delivery below target,OTD was 53.8% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-07,Defect Rate too high,Defect Rate was 20.0% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-07,Distance over plan,Actual distance was 86.7 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-02,On-Time Delivery below target,OTD was 57.1% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-02,Defect Rate too high,Defect Rate was 6.7% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-02,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-02,Distance over plan,Actual distance was 111.7 km over plan (threshold 10.0 km),INFO
+2023-05-05,BOS-3,R-2023-05-05-05,On-Time Delivery below target,OTD was 56.2% vs target 95.0%,WARN
+2023-05-05,BOS-3,R-2023-05-05-05,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-05,BOS-3,R-2023-05-05-05,Distance over plan,Actual distance was 67.1 km over plan (threshold 10.0 km),INFO
+2023-05-05,NYC-2,R-2023-05-05-08,On-Time Delivery below target,OTD was 85.7% vs target 95.0%,WARN
+2023-05-05,NYC-2,R-2023-05-05-08,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-05,NYC-2,R-2023-05-05-08,Distance over plan,Actual distance was 170.9 km over plan (threshold 10.0 km),INFO
+2023-05-05,NYC-2,R-2023-05-05-09,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-05,NYC-2,R-2023-05-05-09,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-05,NYC-2,R-2023-05-05-09,Distance over plan,Actual distance was 90.9 km over plan (threshold 10.0 km),INFO
+2023-05-05,SEA-5,R-2023-05-05-03,On-Time Delivery below target,OTD was 71.4% vs target 95.0%,WARN
+2023-05-05,SEA-5,R-2023-05-05-03,Defect Rate too high,Defect Rate was 22.2% vs target 2.0%,CRITICAL
+2023-05-05,SEA-5,R-2023-05-05-03,Distance over plan,Actual distance was 88.2 km over plan (threshold 10.0 km),INFO
+2023-05-05,SEA-5,R-2023-05-05-01,On-Time Delivery below target,OTD was 50.0% vs target 95.0%,WARN
+2023-05-05,SEA-5,R-2023-05-05-01,Defect Rate too high,Defect Rate was 33.3% vs target 2.0%,CRITICAL
+2023-05-05,SEA-5,R-2023-05-05-01,First-Attempt Delivery below target,First attempt success was 87.5% vs target 95.0%,WARN
+2023-05-05,SEA-5,R-2023-05-05-01,Distance over plan,Actual distance was 21.1 km over plan (threshold 10.0 km),INFO
+2023-05-06,BOS-3,R-2023-05-06-10,On-Time Delivery below target,OTD was 62.5% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-10,Defect Rate too high,Defect Rate was 11.1% vs target 2.0%,CRITICAL
+2023-05-06,BOS-3,R-2023-05-06-10,Distance over plan,Actual distance was 66.3 km over plan (threshold 10.0 km),INFO
+2023-05-06,BOS-3,R-2023-05-06-01,On-Time Delivery below target,OTD was 77.8% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-01,Defect Rate too high,Defect Rate was 11.1% vs target 2.0%,CRITICAL
+2023-05-06,BOS-3,R-2023-05-06-01,First-Attempt Delivery below target,First attempt success was 88.9% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-01,Distance over plan,Actual distance was 126.2 km over plan (threshold 10.0 km),INFO
+2023-05-06,BOS-3,R-2023-05-06-08,On-Time Delivery below target,OTD was 58.3% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-08,Defect Rate too high,Defect Rate was 7.7% vs target 2.0%,CRITICAL
+2023-05-06,BOS-3,R-2023-05-06-08,Distance over plan,Actual distance was 101.0 km over plan (threshold 10.0 km),INFO
+2023-05-06,BOS-3,R-2023-05-06-09,On-Time Delivery below target,OTD was 61.5% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-09,Defect Rate too high,Defect Rate was 26.7% vs target 2.0%,CRITICAL
+2023-05-06,BOS-3,R-2023-05-06-09,First-Attempt Delivery below target,First attempt success was 92.3% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-09,Distance over plan,Actual distance was 106.4 km over plan (threshold 10.0 km),INFO
+2023-05-06,BOS-3,R-2023-05-06-12,On-Time Delivery below target,OTD was 50.0% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-12,Defect Rate too high,Defect Rate was 23.1% vs target 2.0%,CRITICAL
+2023-05-06,BOS-3,R-2023-05-06-12,First-Attempt Delivery below target,First attempt success was 83.3% vs target 95.0%,WARN
+2023-05-06,BOS-3,R-2023-05-06-12,Distance over plan,Actual distance was 53.3 km over plan (threshold 10.0 km),INFO
+2023-05-06,NYC-2,R-2023-05-06-05,On-Time Delivery below target,OTD was 62.5% vs target 95.0%,WARN
+2023-05-06,NYC-2,R-2023-05-06-05,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-06,NYC-2,R-2023-05-06-05,Distance over plan,Actual distance was 77.7 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-06,On-Time Delivery below target,OTD was 46.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-06,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-06,SEA-5,R-2023-05-06-06,First-Attempt Delivery below target,First attempt success was 73.3% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-06,Distance over plan,Actual distance was 88.1 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-07,On-Time Delivery below target,OTD was 85.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-07,Distance over plan,Actual distance was 27.5 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-00,On-Time Delivery below target,OTD was 87.5% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-00,Defect Rate too high,Defect Rate was 11.1% vs target 2.0%,CRITICAL
+2023-05-06,SEA-5,R-2023-05-06-00,Idle Time High,Idle time ratio was 37.5% vs target 25.0%,INFO
+2023-05-06,SEA-5,R-2023-05-06-00,Distance over plan,Actual distance was 109.5 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-04,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-04,Distance over plan,Actual distance was 111.6 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-11,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-11,Defect Rate too high,Defect Rate was 14.3% vs target 2.0%,CRITICAL
+2023-05-06,SEA-5,R-2023-05-06-11,First-Attempt Delivery below target,First attempt success was 91.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-11,Distance over plan,Actual distance was 126.7 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-02,On-Time Delivery below target,OTD was 37.5% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-02,Defect Rate too high,Defect Rate was 12.5% vs target 2.0%,CRITICAL
+2023-05-06,SEA-5,R-2023-05-06-02,Distance over plan,Actual distance was 45.1 km over plan (threshold 10.0 km),INFO
+2023-05-06,SEA-5,R-2023-05-06-03,On-Time Delivery below target,OTD was 42.9% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-03,Defect Rate too high,Defect Rate was 21.4% vs target 2.0%,CRITICAL
+2023-05-06,SEA-5,R-2023-05-06-03,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-06,SEA-5,R-2023-05-06-03,Distance over plan,Actual distance was 47.2 km over plan (threshold 10.0 km),INFO
+2023-05-07,BOS-3,R-2023-05-07-01,On-Time Delivery below target,OTD was 30.0% vs target 95.0%,WARN
+2023-05-07,BOS-3,R-2023-05-07-01,Defect Rate too high,Defect Rate was 9.1% vs target 2.0%,CRITICAL
+2023-05-07,BOS-3,R-2023-05-07-01,Distance over plan,Actual distance was 24.4 km over plan (threshold 10.0 km),INFO
+2023-05-07,BOS-3,R-2023-05-07-07,On-Time Delivery below target,OTD was 71.4% vs target 95.0%,WARN
+2023-05-07,BOS-3,R-2023-05-07-07,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-07,BOS-3,R-2023-05-07-07,Distance over plan,Actual distance was 12.7 km over plan (threshold 10.0 km),INFO
+2023-05-07,BOS-3,R-2023-05-07-06,On-Time Delivery below target,OTD was 42.9% vs target 95.0%,WARN
+2023-05-07,BOS-3,R-2023-05-07-06,Defect Rate too high,Defect Rate was 7.1% vs target 2.0%,CRITICAL
+2023-05-07,BOS-3,R-2023-05-07-06,First-Attempt Delivery below target,First attempt success was 71.4% vs target 95.0%,WARN
+2023-05-07,BOS-3,R-2023-05-07-06,Distance over plan,Actual distance was 178.1 km over plan (threshold 10.0 km),INFO
+2023-05-07,NYC-2,R-2023-05-07-02,On-Time Delivery below target,OTD was 42.9% vs target 95.0%,WARN
+2023-05-07,NYC-2,R-2023-05-07-02,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-07,NYC-2,R-2023-05-07-02,Distance over plan,Actual distance was 75.8 km over plan (threshold 10.0 km),INFO
+2023-05-07,NYC-2,R-2023-05-07-03,On-Time Delivery below target,OTD was 71.4% vs target 95.0%,WARN
+2023-05-07,NYC-2,R-2023-05-07-03,Defect Rate too high,Defect Rate was 23.5% vs target 2.0%,CRITICAL
+2023-05-07,NYC-2,R-2023-05-07-03,First-Attempt Delivery below target,First attempt success was 85.7% vs target 95.0%,WARN
+2023-05-07,NYC-2,R-2023-05-07-03,Idle Time High,Idle time ratio was 27.9% vs target 25.0%,INFO
+2023-05-07,NYC-2,R-2023-05-07-03,Distance over plan,Actual distance was 74.0 km over plan (threshold 10.0 km),INFO
+2023-05-07,SEA-5,R-2023-05-07-00,On-Time Delivery below target,OTD was 66.7% vs target 95.0%,WARN
+2023-05-07,SEA-5,R-2023-05-07-00,Defect Rate too high,Defect Rate was 10.0% vs target 2.0%,CRITICAL
+2023-05-07,SEA-5,R-2023-05-07-00,Distance over plan,Actual distance was 119.2 km over plan (threshold 10.0 km),INFO
+2023-05-07,SEA-5,R-2023-05-07-04,On-Time Delivery below target,OTD was 88.9% vs target 95.0%,WARN
+2023-05-07,SEA-5,R-2023-05-07-04,Defect Rate too high,Defect Rate was 27.3% vs target 2.0%,CRITICAL
+2023-05-07,SEA-5,R-2023-05-07-04,Idle Time High,Idle time ratio was 28.1% vs target 25.0%,INFO
+2023-05-07,SEA-5,R-2023-05-07-04,Distance over plan,Actual distance was 30.0 km over plan (threshold 10.0 km),INFO
+2023-05-07,SEA-5,R-2023-05-07-05,On-Time Delivery below target,OTD was 45.5% vs target 95.0%,WARN
+2023-05-07,SEA-5,R-2023-05-07-05,Defect Rate too high,Defect Rate was 30.8% vs target 2.0%,CRITICAL
+2023-05-07,SEA-5,R-2023-05-07-05,Distance over plan,Actual distance was 122.4 km over plan (threshold 10.0 km),INFO

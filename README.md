@@ -1,31 +1,64 @@
+# Geo Stock Tracker
+Last-Mile Route Intelligence + KPI Alerts
 
-# Procurement KPI Pipeline (SQL → CSV/Sheets → Dash)
+## Overview
+In this project I've simulated an Amazon-style last-mile delivery analytics + Alert system.  
+It ingests delivery orders, routes, GPS logs, and defect reports, then computes daily KPIs to evaluate delivery performance.  
+It also generates a human-friendly alert log so managers can quickly see where things are going wrong.
 
-What you get:
-- Load procurement CSV → PostgreSQL
-- Compute supplier/month KPIs (on-time, lead time, delivery completion, savings, defects, compliance)
-- Export aggregates to CSV (connect to Google Sheets or Looker Studio)
-- Alert rules to flag KPI breaches
+The goal: spot patterns → fix root causes → escalate fast.
+---
 
-## Quick Start
-1) Create venv and install deps
-```
-python3 -m venv .venv && source .venv/bin/activate
-pip install pandas sqlalchemy psycopg2-binary
-```
+Pipeline
+flowchart LR
+    A[Raw CSVs\n(data/)] -->|orders.csv\nroutes.csv\ngps_logs.csv\ndefects.csv| B[Python ETL\netl/compute_lastmile_kpis.py]
+    B --> C1[daily_kpis.csv]
+    B --> C2[alerts_friendly.csv]
+    C1 --> D[GitHub repo (public)]
+    C2 --> D
+    D -->|IMPORTDATA| E[Google Sheets]
+    E --> F[Charts / Dashboard]
 
-2) (Optional) Load into Postgres
-```
-export DATABASE_URL='postgresql+psycopg2://user:pass@localhost:5432/procuredb'
-python etl/load_csv_to_sql.py data/procurement_orders.csv
-```
+---
+## Data Sources
+Synthetic datasets (CSV files in `/data`):
 
-3) Compute KPIs (writes data/supplier_monthly_kpis.csv)
-```
-python etl/compute_kpis.py
-```
+- `orders.csv` – each delivery order with promised vs actual delivery timestamps  
+- `routes.csv` – planned route schedule, type, and SLA info  
+- `gps_logs.csv` – per-route GPS trace (location, speed, idle time)  
+- `defects.csv` – defect events (NDR, late, damaged, etc.)
+---
+## KPIs Tracked
+- On-Time Delivery Rate (OTD) – % of deliveries before promised time  
+- Defect Rate – % of orders with a defect (lost, damaged, late, NDR)  
+- First-Attempt Success – % delivered on first try  
+- Stops per Hour – delivered orders ÷ driver active hours  
+- Route Duration vs SLA – actual vs target route duration  
+- Distance Variance – actual vs planned distance  
+- Idle Time Ratio – % of time idling while engine on  
 
-4) Run alerts (writes data/alerts.csv)
-```
-python alerts/rules.py
-```
+---
+
+## Alerts
+Alerts are written to `data/alerts_friendly.csv` in a plain-English format:
+
+| Date       | Station | Route         | KPI Alert                  | Details                                | Severity  |
+|------------|---------|---------------|----------------------------|----------------------------------------|-----------|
+| 2023-05-01 | BOS-3   | R-2023-05-01-A | On-Time Delivery below target | OTD was 85.7% vs target 95%            | WARN      |
+| 2023-05-01 | BOS-3   | R-2023-05-01-A | Defect Rate too high       | Defect Rate was 6.7% vs target 2%       | CRITICAL  |
+
+---
+
+## Architecture
+- Ingestion → CSVs  
+- Transform → Python (Pandas)  
+- Storage → Outputs saved back to `/data`  
+- Serving → Google Sheets (`IMPORTDATA`) or Looker Studio for dashboards  
+
+---
+
+## How to Run
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/jpayal0110/geo-stock-tracker.git
+   cd geo-stock-tracker
