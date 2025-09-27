@@ -2,29 +2,71 @@
 Last-Mile Route Intelligence + KPI Alerts
 
 ## Overview
-In this project I've simulated an Amazon-style last-mile delivery analytics + Alert system.  
-It ingests delivery orders, routes, GPS logs, and defect reports, then computes daily KPIs to evaluate delivery performance.  
-It also generates a human-friendly alert log so managers can quickly see where things are going wrong.
+In this project I’ve simulated an Amazon-style last-mile delivery analytics + alert system.
+It ingests delivery orders, routes, GPS logs, and defect reports, then computes daily KPIs to evaluate delivery performance.
+It also generates a human-friendly alert log so managers can quickly see where things are going wrong. 
+To keep the data fresh, the ETL pipeline can be automated with GitHub Actions, which runs the script on a schedule (e.g., every morning), updates the KPI and alert CSVs, and pushes them back to the repo so Google Sheets and dashboards always stay up to date.
 
-The goal: spot patterns → fix root causes → escalate fast.
 ---
 
-## Pipeline (Simple View)
-
-## Pipeline (Simple View)
+## Pipeline
+Simple View
 
 ```mermaid
 flowchart TD
-    A[Delivery Data Files<br>orders.csv, routes.csv, gps.csv, defects.csv] --> B[Python Script<br>compute KPIs + check problems]
-    B --> C[Daily Scoreboard<br>daily_kpis.csv]
-    B --> D[Alerts Report<br>alerts_friendly.csv]
-    C --> E[GitHub<br>(public links)]
+    A[CSV files: orders, routes, gps, defects] --> B[Python Script: compute KPIs and alerts]
+    B --> C[Daily Scoreboard - daily_kpis.csv]
+    B --> D[Alerts Report - alerts_friendly.csv]
+    C --> E[GitHub Repo]
     D --> E
-    E --> F[Google Sheets<br>imports the files]
-    F --> G[Charts & Dashboards<br>(see trends + alerts)]
+    E --> F[Google Sheets via IMPORTDATA]
+    F --> G[Charts and Dashboards]
 ```
 
 ---
+Technical View flowchart LR
+
+    subgraph Input
+        A1[orders.csv]
+        A2[routes.csv]
+        A3[gps_logs.csv]
+        A4[defects.csv]
+    end
+
+    subgraph ETL
+        B[compute_lastmile_kpis.py]
+    end
+
+    subgraph Output
+        C1[daily_kpis.csv]
+        C2[alerts_friendly.csv]
+    end
+
+    subgraph Repo
+        D[GitHub Repo\n(main branch)]
+    end
+
+    subgraph Automation
+        E[GitHub Actions\nscheduled run]
+    end
+
+    subgraph Serve
+        F[Google Sheets IMPORTDATA]
+        G[Charts & Dashboards]
+    end
+
+    A1 --> B
+    A2 --> B
+    A3 --> B
+    A4 --> B
+    B --> C1
+    B --> C2
+    C1 --> D
+    C2 --> D
+    D --> F
+    E --> B
+    F --> G
+
 ## Data Sources
 Synthetic datasets (CSV files in `/data`):
 
