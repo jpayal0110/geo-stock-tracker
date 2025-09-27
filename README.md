@@ -11,15 +11,18 @@ The goal: spot patterns → fix root causes → escalate fast.
 
 ## Pipeline (Simple View)
 
+## Pipeline (Simple View)
+
 ```mermaid
 flowchart TD
-    A[Delivery Data Files\norders.csv, routes.csv, gps.csv, defects.csv] --> B[Python Script\ncompute KPIs + check problems]
-    B --> C[Daily Scoreboard\ndaily_kpis.csv]
-    B --> D[Alerts Report\nalerts_friendly.csv]
-    C --> E[GitHub\n(public links)]
+    A[Delivery Data Files<br>orders.csv, routes.csv, gps.csv, defects.csv] --> B[Python Script<br>compute KPIs + check problems]
+    B --> C[Daily Scoreboard<br>daily_kpis.csv]
+    B --> D[Alerts Report<br>alerts_friendly.csv]
+    C --> E[GitHub<br>(public links)]
     D --> E
-    E --> F[Google Sheets\nimports the files]
-    F --> G[Charts & Dashboards\n(see trends + alerts)]
+    E --> F[Google Sheets<br>imports the files]
+    F --> G[Charts & Dashboards<br>(see trends + alerts)]
+```
 
 ---
 ## Data Sources
