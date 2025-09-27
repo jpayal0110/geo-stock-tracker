@@ -7,6 +7,8 @@ It ingests delivery orders, routes, GPS logs, and defect reports, then computes 
 It also generates a human-friendly alert log so managers can quickly see where things are going wrong. 
 To keep the data fresh, the ETL pipeline can be automated with GitHub Actions, which runs the script on a schedule (e.g., every morning), updates the KPI and alert CSVs, and pushes them back to the repo so Google Sheets and dashboards always stay up to date.
 
+Check out the Google sheet here: [geo-stock-tracker-google-sheet](https://docs.google.com/spreadsheets/d/16blGH2G9RyK0cQiUXRE9sEUZcc2qZ4q6YvGsXa0pbKE/edit?usp=sharing)
+
 ---
 
 ## Pipeline
