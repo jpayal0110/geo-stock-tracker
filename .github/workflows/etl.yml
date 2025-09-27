@@ -1,0 +1,36 @@
+name: lastmile-etl
+
+on:
+  schedule:
+    - cron: "30 7 * * *"   # Runs every day at 07:30 UTC
+  workflow_dispatch:
+
+jobs:
+  run-etl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push updated CSV
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run ETL
+        run: python etl/compute_lastmile_kpis.py
+
+      - name: Commit updated CSVs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/daily_kpis.csv data/alerts_friendly.csv
+          git commit -m "Automated ETL refresh" || echo "No changes to commit"
+          git push
